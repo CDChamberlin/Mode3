@@ -1,0 +1,4 @@
+function myFunction(num1, string1) {
+    console.log(`Hello from myFunction, ${string1}.`);
+    for (i = 0; i < num1; i += 2) console.log(i);
+}
