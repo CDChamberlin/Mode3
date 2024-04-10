@@ -6,6 +6,17 @@
         <title>Document</title>
     </head>
     <body>
-        <h1 id:"Main"> Heading 1 </h1>
+        <h1 id="Main">My Great Webpage</h1>
+        <input type="text" placeholder="Name" id="name" />
+        <label for="name">A name to greet you</label>
+        <input type="number" placeholder="Count to by 2s" id="number" />
+        <label for="number">Numbers</label>
+        <button
+            onclick="myFunction(document.getElementById('number').innerHTML, document.getElementById('name').innerHTML)"
+            type="submit"
+        >
+            Submit
+        </button>
+        <script src="index.js"></script>
     </body>
 </html>
